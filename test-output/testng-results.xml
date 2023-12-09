@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-07T10:45:43 PST" name="Default suite" finished-at="2023-12-07T10:47:10 PST" duration-ms="87037">
+  <suite started-at="2023-12-08T11:39:15 PST" name="Default suite" finished-at="2023-12-08T11:42:02 PST" duration-ms="167322">
     <groups>
     </groups>
-    <test started-at="2023-12-07T10:45:43 PST" name="Default test" finished-at="2023-12-07T10:47:10 PST" duration-ms="87037">
-      <class name="Core.introduction">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Core.introduction@25641d39]" started-at="2023-12-07T10:45:43 PST" name="setUp" finished-at="2023-12-07T10:46:04 PST" duration-ms="21173" status="PASS">
+    <test started-at="2023-12-08T11:39:15 PST" name="Default test" finished-at="2023-12-08T11:42:02 PST" duration-ms="167322">
+      <class name="com.apex.web.test.GoogleTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.apex.web.test.GoogleTests@3e27ba32]" started-at="2023-12-08T11:39:15 PST" name="setup" finished-at="2023-12-08T11:39:37 PST" duration-ms="21558" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TestwithCorrectLogin()[pri:0, instance:Core.introduction@25641d39]" started-at="2023-12-07T10:46:04 PST" name="TestwithCorrectLogin" finished-at="2023-12-07T10:47:09 PST" duration-ms="65215" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="TestwithCorrectLogin()[pri:0, instance:com.apex.web.test.GoogleTests@3e27ba32]" started-at="2023-12-08T11:39:37 PST" name="TestwithCorrectLogin" finished-at="2023-12-08T11:40:47 PST" duration-ms="70706" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='password'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '20.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.62, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wn/qqzs8nzn7qd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 120.0.6099.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2807f21de6472d67333a9b9dad47517d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.62, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wn/qqzs8nzn7qd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50400}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50400/devtoo..., se:cdpVersion: 120.0.6099.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 796b66f284e60ba35429e7b4f15f44fb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='password'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '20.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.62, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wn/qqzs8nzn7qd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 120.0.6099.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2807f21de6472d67333a9b9dad47517d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.62, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wn/qqzs8nzn7qd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50400}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50400/devtoo..., se:cdpVersion: 120.0.6099.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 796b66f284e60ba35429e7b4f15f44fb
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-at Core.introduction.TestwithCorrectLogin(introduction.java:68)
+at com.apex.web.test.GoogleTests.TestwithCorrectLogin(GoogleTests.java:54)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -63,11 +63,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestwithCorrectLogin -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Core.introduction@25641d39]" started-at="2023-12-07T10:47:09 PST" name="cleanUp" finished-at="2023-12-07T10:47:10 PST" duration-ms="540" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.apex.web.test.GoogleTests@3e27ba32]" started-at="2023-12-08T11:40:47 PST" name="cleanUp" finished-at="2023-12-08T11:40:48 PST" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- Core.introduction -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.apex.web.test.GoogleTests@3e27ba32]" started-at="2023-12-08T11:40:48 PST" name="setup" finished-at="2023-12-08T11:41:05 PST" duration-ms="17343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestwithTextInput()[pri:0, instance:com.apex.web.test.GoogleTests@3e27ba32]" started-at="2023-12-08T11:41:05 PST" name="TestwithTextInput" finished-at="2023-12-08T11:42:01 PST" duration-ms="55453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestwithTextInput -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.apex.web.test.GoogleTests@3e27ba32]" started-at="2023-12-08T11:42:01 PST" name="cleanUp" finished-at="2023-12-08T11:42:02 PST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.apex.web.test.GoogleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

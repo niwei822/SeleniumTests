@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Core.introduction">
+      <class name="com.apex.web.test.GoogleTests">
         <methods>
+          <include name="setup"/>
           <include name="TestwithCorrectLogin"/>
           <include name="cleanUp"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- Core.introduction -->
+      </class> <!-- com.apex.web.test.GoogleTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
